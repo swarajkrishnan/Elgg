@@ -234,7 +234,7 @@ function blog_entity_menu_setup($hook, $type, $return, $params) {
  * @param string $returnvalue
  * @param array  $params
  */
-function bookmarks_notify_message($hook, $entity_type, $returnvalue, $params) {
+function blog_notify_message($hook, $entity_type, $returnvalue, $params) {
 	$entity = $params['entity'];
 	$to_entity = $params['to_entity'];
 	$method = $params['method'];
